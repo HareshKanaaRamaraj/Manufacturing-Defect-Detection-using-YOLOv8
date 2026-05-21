@@ -1,0 +1,1 @@
+# Manufacturing-Defect-Detection-using-YOLOv8
