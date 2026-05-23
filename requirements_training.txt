@@ -1,0 +1,14 @@
+# ── Training dependencies (Kaggle / PC) ──────────────────────
+# Python 3.10+ required
+
+ultralytics>=8.3.0          # YOLOv8 — latest fixes PyTorch 2.6 compat
+torch>=2.6.0                # PyTorch
+torchvision>=0.21.0         # Vision transforms
+opencv-python-headless      # OpenCV (headless = no GUI, safe for Kaggle)
+albumentations>=1.3.0       # Advanced augmentation
+pyyaml>=6.0                 # data.yaml creation
+tqdm>=4.65.0                # Progress bars
+pandas>=2.0.0               # results.csv reading + training curves
+matplotlib>=3.7.0           # Visualisation plots
+numpy>=1.24.0               # Array operations
+lxml>=4.9.0                 # XML parsing fallback

@@ -1,0 +1,7 @@
+# ── Raspberry Pi runtime dependencies ────────────────────────
+# Raspberry Pi OS 64-bit Bookworm · Python 3.11+
+# Install: pip install -r requirements_pi.txt
+
+onnxruntime>=1.17.0         # ONNX inference engine (CPU, ARM64)
+opencv-python>=4.8.0        # Camera capture + frame drawing
+numpy>=1.24.0               # Array operations
